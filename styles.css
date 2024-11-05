@@ -1,0 +1,103 @@
+/*Style for the container*/
+#theGame{
+    background-color:rgb(15, 1, 13); /*rgb(164, 5, 103);*/
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+h1{
+    color:rgb(219, 3, 136);
+    padding: 10px;
+    text-align: center;
+
+}
+
+p{
+    color:rgb(219, 3, 136);
+    padding: 10px;
+    text-align: center;
+
+}
+
+#msg4{
+    height: 30vh;
+    width: 70vh;
+    text-align: center;
+    color:rgb(219, 3, 136);
+    font-style: italic;
+    font-size: small;
+}
+
+
+/*Style for the table*/
+table {
+    border-collapse: collapse;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 30%;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: left;
+   
+}
+
+/*Style for the div: buttons, checkboxes*/
+#divButtons{
+    margin-left: 40%;
+    margin-right: 30%;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+
+button{
+    background-color:rgb(219, 3, 136);
+    box-shadow:0cqmax;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.checkBoxStyle {
+    padding: 10px;
+    height: 3vh;
+    width: 5vh;
+    
+}
+
+.labels {
+    font-size: px;
+    color:white;
+    font-weight: bold;
+   
+}
+
+/*Style for the texbox to display message*/
+#textBox{
+    background-color: rgb(219, 3, 136);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    height: 4vh;
+    width: 25vh;
+
+}
+
+/*Style for class incorrect when user click on check mistake*/
+.incorrect{
+    color: blue;
+}
+
+.display{
+    color: blue;
+}
